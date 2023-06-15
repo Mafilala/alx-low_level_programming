@@ -1,2 +1,2 @@
 #!/bin/bash
-gcc -c $CFILE "${file_path%.*}.s"
+gcc -S $CFILE "${file_path%.*}.s"
