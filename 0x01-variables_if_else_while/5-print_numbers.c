@@ -11,9 +11,10 @@ char ch;
 
 for (i = 48; i <= 57; i++)
 {
-char ch = i;
+ch = i;
 putchar(ch);
 }
 putchar('\n');
 return (0);
 }
+
