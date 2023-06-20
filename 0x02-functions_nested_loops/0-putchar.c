@@ -13,7 +13,7 @@ for (i = 0; arr[i] != '\0' ; i++)
 {
 _putchar(arr[i]);
 }
-putchar('\n');
+_putchar('\n');
 return (0);
 }
 
