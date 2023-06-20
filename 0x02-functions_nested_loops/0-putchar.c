@@ -11,7 +11,7 @@ int i;
 const char* arr = "_putchar";
 for (i = 0; arr[i] != '\0' ; i++)
 {
-putchar(arr[i]);
+_putchar(arr[i]);
 }
 putchar('\n');
 return (0);
