@@ -7,7 +7,7 @@
 int main(void)
 {
 int i;
-const char* arr = "_putchar";
+const char *arr = "_putchar";
 
 for (i = 0; arr[i] != '\0' ; i++)
 {
