@@ -6,7 +6,8 @@
  * Description: function that do abs operation
  * Return: returns the absolute value of a give number
  */
-int _abs(int c){
+int _abs(int c)
+{
 if (c < 0)
 c *= -1;
 return (c);
