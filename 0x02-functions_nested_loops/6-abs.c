@@ -9,9 +9,11 @@
 int _abs(int c)
 int abs;
 
-if (c < 0)
+if (c < 0){
 abs = c * -1
-else
+}
+else {
 abs = c;
+}
 return (abs);
 }
