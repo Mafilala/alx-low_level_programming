@@ -8,9 +8,3 @@ void reset_to_98(int *n)
 {
   *n = 98;
 }
-int main(){
-int val = 110;
-printf("%d", val);
-reset_to_98(&val);
-printf("%d", val);
-}
